@@ -7,7 +7,7 @@ const HostSchema = new Schema(
     language: { type: Schema.Types.ObjectId, ref: "Language" },
     age: Number,
     bio: { type: String, default: null },
-    image: String,
+    image: [String],
     image1: { type: String, default: "null" },
     image2: { type: String, default: "null" },
     isOnline: { type: Boolean, default: true },
