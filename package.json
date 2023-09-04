@@ -1,0 +1,37 @@
+{
+  "name": "bumbblex-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xitij-dev/bumbbleX-backend.git"
+  },
+  "author": "Urvi Akbari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xitij-dev/bumbbleX-backend/issues"
+  },
+  "homepage": "https://github.com/xitij-dev/bumbbleX-backend#readme",
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cryptr": "^6.0.2",
+    "dayjs": "^1.10.4",
+    "express": "^4.17.1",
+    "fcm-node": "^1.5.2",
+    "jsonwebtoken": "^8.5.1",
+    "machinepack-datetime": "^1.4.0",
+    "mongoose": "^5.12.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.5.0",
+    "repeat-array": "^1.0.0",
+    "socket.io": "^4.0.0"
+  }
+}
